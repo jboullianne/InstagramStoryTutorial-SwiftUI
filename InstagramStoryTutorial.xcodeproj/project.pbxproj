@@ -14,6 +14,8 @@
 		8C36E75F24462ED300FF2C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C36E75E24462ED300FF2C19 /* Preview Assets.xcassets */; };
 		8C36E76224462ED300FF2C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C36E76024462ED300FF2C19 /* LaunchScreen.storyboard */; };
 		8C36E76D24462ED300FF2C19 /* InstagramStoryTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36E76C24462ED300FF2C19 /* InstagramStoryTutorialTests.swift */; };
+		8C36E7782446366A00FF2C19 /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36E7772446366A00FF2C19 /* StoryTimer.swift */; };
+		8C36E77A24463EF200FF2C19 /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36E77924463EF200FF2C19 /* LoadingRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		8C36E76824462ED300FF2C19 /* InstagramStoryTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramStoryTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C36E76C24462ED300FF2C19 /* InstagramStoryTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramStoryTutorialTests.swift; sourceTree = "<group>"; };
 		8C36E76E24462ED300FF2C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C36E7772446366A00FF2C19 /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
+		8C36E77924463EF200FF2C19 /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				8C36E76024462ED300FF2C19 /* LaunchScreen.storyboard */,
 				8C36E76324462ED300FF2C19 /* Info.plist */,
 				8C36E75D24462ED300FF2C19 /* Preview Content */,
+				8C36E7772446366A00FF2C19 /* StoryTimer.swift */,
+				8C36E77924463EF200FF2C19 /* LoadingRectangle.swift */,
 			);
 			path = InstagramStoryTutorial;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C36E77A24463EF200FF2C19 /* LoadingRectangle.swift in Sources */,
 				8C36E75624462ED000FF2C19 /* AppDelegate.swift in Sources */,
+				8C36E7782446366A00FF2C19 /* StoryTimer.swift in Sources */,
 				8C36E75824462ED000FF2C19 /* SceneDelegate.swift in Sources */,
 				8C36E75A24462ED000FF2C19 /* ContentView.swift in Sources */,
 			);
